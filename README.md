@@ -9,14 +9,16 @@ _2020-12-26~_
 
 ### 내장 함수
 - [divmod(a, b)]() / int, 몫과 나머지
-- [list()]() / introduction, 리스트 원소수 세기
-- [map()]() / introduction, n진법으로 표기된 string을 10진법 숫자로 변환하기
+- [list()]() / introduction, 리스트 원소수 세기 & iterable, 모든 멤버의 type 변환하기
+- [map()]() / introduction, n진법으로 표기된 string을 10진법 숫자로 변환하기 & iterable, 모든 멤버의 type 변환하기
 - [enumerate()]() / int, n진법으로 표기된 string을 10진법 숫자로 변환하기
 - [int()]() / int, n진법으로 표기된 string을 10진법 숫자로 변환하기
 - [sum()]() / int, n진법으로 표기된 string을 10진법 숫자로 변환하기
 - 문자열 클래스
   - [정렬 메서드 .ljust(), .center(), .rjust()]() / str, 문자열 정렬하기
-  - [ .format()]() / 문자열 정렬하기
+  - [.format()]() / 문자열 정렬하기
+  - [.join()]() / sequence types, sequence 멤버를 하나로 이어붙이기
+  - [.split()]() / sequence types, sequence 멤버를 하나로 이어붙이기
 - string 모듈
   - [string 상수 모음(알파벳 대소문자, 숫자)]() / str, 알파벳
 - [sorted()]() / iterable, 원본을 유지한채, 정렬된 리스트 구하기
@@ -58,5 +60,5 @@ _2020-12-26~_
 2. int 다루기 / 2020.12.26
 3. str 다루기 / 2021.1.1(알파벳), 2021.1.2(문자열 정렬하기)
 4. iterable 다루기 / 2021.1.2(원본 유지하며 정렬된 리스트 구하기, 2차원 리스트 뒤집기), 2021.1.
-5. Sequcne Type 다루기 / 
+5. Sequcne Type 다루기 / 2021.1.2(sequence 멤버를 하나로 이어붙이기)
 6. itertools & collections 모듈
